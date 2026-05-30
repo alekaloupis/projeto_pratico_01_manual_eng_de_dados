@@ -1,0 +1,212 @@
+[0m19:18:31.639124 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001451D4A2510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001451A17B610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001451E8A3ED0>]}
+
+
+============================== 19:18:31.780040 | 9e7ea896-de94-4b2c-af60-8f5719dd876e ==============================
+[0m19:18:31.780040 [info ] [MainThread]: Running with dbt=1.11.11
+[0m19:18:31.780720 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\aless\\.dbt', 'invocation_command': 'dbt init', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m19:18:32.078065 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\aless\.dbt
+[0m19:19:02.139169 [info ] [MainThread]: A project called dw_bootcamp already exists here.
+[0m19:19:02.140381 [debug] [MainThread]: Command `dbt init` succeeded at 19:19:02.140244 after 30.64 seconds
+[0m19:19:02.140768 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001451F9250F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001451FBC0290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001451F8A1590>]}
+[0m19:19:02.141198 [debug] [MainThread]: Flushing usage events
+[0m19:19:03.064686 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:45:36.873413 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001509C082510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015098D5B610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001509D497ED0>]}
+
+
+============================== 19:45:36.877575 | ba3e7633-d38a-4eb6-acee-832ec3aa3cc6 ==============================
+[0m19:45:36.877575 [info ] [MainThread]: Running with dbt=1.11.11
+[0m19:45:36.878191 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\aless\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m19:45:36.927273 [info ] [MainThread]: dbt version: 1.11.11
+[0m19:45:36.927732 [info ] [MainThread]: python version: 3.13.13
+[0m19:45:36.928097 [info ] [MainThread]: python path: C:\Users\aless\Documents\repos\manual_engenharia_dados(walter-gonzaga)\PROJETO_PRATICO_01_MANUAL_ENG_DADOS\1_local_setup\.venv\Scripts\python.exe
+[0m19:45:36.928457 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m19:45:36.928863 [info ] [MainThread]: Using profiles dir at C:\Users\aless\.dbt
+[0m19:45:36.929243 [info ] [MainThread]: Using profiles.yml file at C:\Users\aless\.dbt\profiles.yml
+[0m19:45:36.929644 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\aless\Documents\repos\manual_engenharia_dados(walter-gonzaga)\PROJETO_PRATICO_01_MANUAL_ENG_DADOS\2_data_warehouse\dbt_project.yml
+[0m19:45:36.930049 [info ] [MainThread]: Configuration:
+[0m19:45:36.930375 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m19:45:36.930695 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:45:36.931019 [info ] [MainThread]: Required dependencies:
+[0m19:45:36.931354 [debug] [MainThread]: Executing "git --help"
+[0m19:45:36.956805 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:45:36.957224 [debug] [MainThread]: STDERR: "b''"
+[0m19:45:36.957546 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:45:36.957897 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m19:45:36.958304 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:45:36.958650 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\aless\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:45:36.958980 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\aless\Documents\repos\manual_engenharia_dados(walter-gonzaga)\PROJETO_PRATICO_01_MANUAL_ENG_DADOS\2_data_warehouse\dbt_project.yml> not found
+
+[0m19:45:36.959806 [debug] [MainThread]: Command `dbt debug` failed at 19:45:36.959691 after 0.23 seconds
+[0m19:45:36.960143 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001509E472FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001509D363AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001509E4957B0>]}
+[0m19:45:36.960541 [debug] [MainThread]: Flushing usage events
+[0m19:45:37.857529 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:49:14.283810 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E0090E2510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E005DBB610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E00A4E3ED0>]}
+
+
+============================== 19:49:14.288163 | 319f1e2f-d268-4dc7-aa4b-5327148cdbbf ==============================
+[0m19:49:14.288163 [info ] [MainThread]: Running with dbt=1.11.11
+[0m19:49:14.288793 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\aless\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m19:49:14.309255 [info ] [MainThread]: dbt version: 1.11.11
+[0m19:49:14.309698 [info ] [MainThread]: python version: 3.13.13
+[0m19:49:14.310087 [info ] [MainThread]: python path: C:\Users\aless\Documents\repos\manual_engenharia_dados(walter-gonzaga)\PROJETO_PRATICO_01_MANUAL_ENG_DADOS\1_local_setup\.venv\Scripts\python.exe
+[0m19:49:14.310526 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m19:49:14.310989 [info ] [MainThread]: Using profiles dir at C:\Users\aless\.dbt
+[0m19:49:14.311355 [info ] [MainThread]: Using profiles.yml file at C:\Users\aless\.dbt\profiles.yml
+[0m19:49:14.311738 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\aless\Documents\repos\manual_engenharia_dados(walter-gonzaga)\PROJETO_PRATICO_01_MANUAL_ENG_DADOS\2_data_warehouse\dbt_project.yml
+[0m19:49:14.312133 [info ] [MainThread]: Configuration:
+[0m19:49:14.312497 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m19:49:14.312856 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:49:14.313202 [info ] [MainThread]: Required dependencies:
+[0m19:49:14.313573 [debug] [MainThread]: Executing "git --help"
+[0m19:49:14.339169 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:49:14.339674 [debug] [MainThread]: STDERR: "b''"
+[0m19:49:14.340021 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:49:14.340446 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m19:49:14.340864 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:49:14.341270 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\aless\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:49:14.341684 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\aless\Documents\repos\manual_engenharia_dados(walter-gonzaga)\PROJETO_PRATICO_01_MANUAL_ENG_DADOS\2_data_warehouse\dbt_project.yml> not found
+
+[0m19:49:14.342594 [debug] [MainThread]: Command `dbt debug` failed at 19:49:14.342474 after 0.20 seconds
+[0m19:49:14.342936 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E00B4C3950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E00A3B3770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E00B4E57B0>]}
+[0m19:49:14.343292 [debug] [MainThread]: Flushing usage events
+[0m19:49:15.231682 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:55:18.674809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000278B368E510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000278B036B610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000278B5A67ED0>]}
+
+
+============================== 19:55:18.679099 | 9ed60167-e43c-41a5-b555-2e4d0b96ee62 ==============================
+[0m19:55:18.679099 [info ] [MainThread]: Running with dbt=1.11.11
+[0m19:55:18.679733 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\aless\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m19:55:18.699317 [info ] [MainThread]: dbt version: 1.11.11
+[0m19:55:18.699836 [info ] [MainThread]: python version: 3.13.13
+[0m19:55:18.700216 [info ] [MainThread]: python path: C:\Users\aless\Documents\repos\manual_engenharia_dados(walter-gonzaga)\PROJETO_PRATICO_01_MANUAL_ENG_DADOS\1_local_setup\.venv\Scripts\python.exe
+[0m19:55:18.700578 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m19:55:18.700980 [info ] [MainThread]: Using profiles dir at C:\Users\aless\.dbt
+[0m19:55:18.701338 [info ] [MainThread]: Using profiles.yml file at C:\Users\aless\.dbt\profiles.yml
+[0m19:55:18.701698 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\aless\Documents\repos\manual_engenharia_dados(walter-gonzaga)\PROJETO_PRATICO_01_MANUAL_ENG_DADOS\2_data_warehouse\dbt_project.yml
+[0m19:55:18.702097 [info ] [MainThread]: Configuration:
+[0m19:55:18.702421 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m19:55:18.702742 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:55:18.703054 [info ] [MainThread]: Required dependencies:
+[0m19:55:18.703384 [debug] [MainThread]: Executing "git --help"
+[0m19:55:18.728999 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:55:18.729412 [debug] [MainThread]: STDERR: "b''"
+[0m19:55:18.729734 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:55:18.730150 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m19:55:18.730583 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:55:18.730990 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\aless\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:55:18.731427 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\aless\Documents\repos\manual_engenharia_dados(walter-gonzaga)\PROJETO_PRATICO_01_MANUAL_ENG_DADOS\2_data_warehouse\dbt_project.yml> not found
+
+[0m19:55:18.732325 [debug] [MainThread]: Command `dbt debug` failed at 19:55:18.732209 after 0.19 seconds
+[0m19:55:18.732667 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000278B5A73950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000278B4963770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000278B5A957B0>]}
+[0m19:55:18.733022 [debug] [MainThread]: Flushing usage events
+[0m19:55:19.629381 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:18:13.252666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000189852C2510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001898203B610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000189866D7ED0>]}
+
+
+============================== 20:18:13.258885 | f19130e8-1297-4b64-831d-45a6c87c70a5 ==============================
+[0m20:18:13.258885 [info ] [MainThread]: Running with dbt=1.11.11
+[0m20:18:13.259465 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\aless\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt init', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:18:46.514775 [info ] [MainThread]: A project called dw_bootcamp already exists here.
+[0m20:18:46.516198 [debug] [MainThread]: Command `dbt init` succeeded at 20:18:46.516025 after 33.37 seconds
+[0m20:18:46.516672 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000189876B3820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001898772FE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000189876D5370>]}
+[0m20:18:46.517179 [debug] [MainThread]: Flushing usage events
+[0m20:18:47.397889 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:26:10.153683 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B83E38E510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B83B06B610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B83F793ED0>]}
+
+
+============================== 20:26:10.157941 | 18555751-bf10-435b-b328-7b0897055138 ==============================
+[0m20:26:10.157941 [info ] [MainThread]: Running with dbt=1.11.11
+[0m20:26:10.158552 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\aless\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt deps', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:26:10.159144 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\aless\Documents\repos\manual_engenharia_dados(walter-gonzaga)\PROJETO_PRATICO_01_MANUAL_ENG_DADOS\2_data_warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:26:10.160056 [debug] [MainThread]: Command `dbt deps` failed at 20:26:10.159941 after 0.11 seconds
+[0m20:26:10.160376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B840772B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B83F663AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B8407956A0>]}
+[0m20:26:10.160729 [debug] [MainThread]: Flushing usage events
+[0m20:26:11.064252 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:35:57.546913 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027A6A2F2510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027A66FCB610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027A6B6F3ED0>]}
+
+
+============================== 20:35:57.550963 | 88951db7-ff0e-4856-94ce-bcc835e4f01e ==============================
+[0m20:35:57.550963 [info ] [MainThread]: Running with dbt=1.11.11
+[0m20:35:57.551541 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\aless\\.dbt', 'invocation_command': 'dbt deps', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:35:57.552095 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\aless\Documents\repos\manual_engenharia_dados(walter-gonzaga)\PROJETO_PRATICO_01_MANUAL_ENG_DADOS\2_data_warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:35:57.553029 [debug] [MainThread]: Command `dbt deps` failed at 20:35:57.552913 after 0.15 seconds
+[0m20:35:57.553366 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027A6C6D2B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027A6B5C3AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027A6C6F56A0>]}
+[0m20:35:57.553698 [debug] [MainThread]: Flushing usage events
+[0m20:35:58.479194 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:42:41.533912 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001732F732510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001732C41B610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017331B13ED0>]}
+
+
+============================== 20:42:41.540971 | fca14a9c-7e9e-4958-b753-d39704218d3b ==============================
+[0m20:42:41.540971 [info ] [MainThread]: Running with dbt=1.11.11
+[0m20:42:41.541611 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\aless\\.dbt', 'invocation_command': 'dbt seed', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:42:41.542051 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\aless\Documents\repos\manual_engenharia_dados(walter-gonzaga)\PROJETO_PRATICO_01_MANUAL_ENG_DADOS\2_data_warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:42:41.542970 [debug] [MainThread]: Command `dbt seed` failed at 20:42:41.542854 after 0.15 seconds
+[0m20:42:41.543294 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017331B1F950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017331B2B770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017331B17350>]}
+[0m20:42:41.543628 [debug] [MainThread]: Flushing usage events
+[0m20:42:42.442789 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:47:33.738354 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC840B2510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DCFF96B610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC854C7ED0>]}
+
+
+============================== 20:47:33.742463 | cad6a384-4c92-4d24-88e6-3698191a311e ==============================
+[0m20:47:33.742463 [info ] [MainThread]: Running with dbt=1.11.11
+[0m20:47:33.743023 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\aless\\.dbt', 'invocation_command': 'dbt deps', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:47:33.743569 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\aless\Documents\repos\manual_engenharia_dados(walter-gonzaga)\PROJETO_PRATICO_01_MANUAL_ENG_DADOS\2_data_warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:47:33.744493 [debug] [MainThread]: Command `dbt deps` failed at 20:47:33.744378 after 0.11 seconds
+[0m20:47:33.744809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC864A2B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC85393AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC864C16A0>]}
+[0m20:47:33.745169 [debug] [MainThread]: Flushing usage events
+[0m20:47:34.598253 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:54:35.841847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024746812510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000247434FB610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024747C0FED0>]}
+
+
+============================== 09:54:35.847835 | 9f781507-9484-4762-92d7-1f0287bc16bd ==============================
+[0m09:54:35.847835 [info ] [MainThread]: Running with dbt=1.11.11
+[0m09:54:35.848418 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\aless\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt run --select intermediate', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m09:54:35.848873 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\aless\Documents\repos\manual_eng_dados\manual_eng_dados\2_data_warehouse\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m09:54:35.849704 [debug] [MainThread]: Command `dbt run` failed at 09:54:35.849590 after 0.15 seconds
+[0m09:54:35.850028 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024747C13950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024748C02B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024747C1AAD0>]}
+[0m09:54:35.850361 [debug] [MainThread]: Flushing usage events
+[0m09:54:36.762619 [debug] [MainThread]: An error was encountered while trying to flush usage events
